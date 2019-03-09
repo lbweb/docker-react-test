@@ -1,0 +1,9 @@
+sudo: required 
+services:
+  - docker 
+
+before_install:
+  - docker build -t lukeboerdam/docker-react-test -f DockerFile.dev .
+
+script: 
+  - docker run lukeboerdam/docker-react-test npm run test -- --coverage
