@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-           Hello - testing testing 234
+           THis is something else
           </p>
           <a
             className="App-link"
@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            This is a new feature branch
           </a>
         </header>
       </div>
